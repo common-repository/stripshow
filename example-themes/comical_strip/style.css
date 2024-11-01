@@ -1,0 +1,37 @@
+/*
+THEME NAME: ComicalStrip
+THEME URI: http://stripshow.monkeylaw.org
+DESCRIPTION: Colorful theme for stripShow
+VERSION: 2.0
+AUTHOR: Brad Hawkins
+AUTHOR URI:http://stripshow.monkeylaw.org
+TAGS: webcomics,stripShow
+TEMPLATE: stripshow_sandbox
+
+This is a simple example of a stripShow Sandbox child theme. It imports some files from stripShow Sandbox, and substitutes its own colors. It also adds rounded corners to all the elements.
+*/
+
+@import url('../stripshow_sandbox/library/styles/reset.css'); 
+@import url('../stripshow_sandbox/library/styles/layout.css');
+@import url('../stripshow_sandbox/library/styles/typography.css');
+@import url('../stripshow_sandbox/library/styles/icons.css');
+@import url('../stripshow_sandbox/library/styles/superfish.css');
+@import url('../stripshow_sandbox/library/styles/widgets.css');
+
+@import url('library/styles/colors.css'); 
+@import url('library/styles/rounded-corners.css');
+
+	
+/* An example of how text might be replaced with an image */
+h1#blog-title a{
+	display: block;
+	text-indent: -9000px;
+	width: 261px;
+	height: 80px;
+	background: transparent url(library/images/logo.png) no-repeat;
+	}
+
+body {
+	font-family: 'Lucida Grande',Helvetica,sans-serif;
+	}
+	

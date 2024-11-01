@@ -1,0 +1,57 @@
+/* Widget styles */
+div#primary.no-widgets ul ul, div#secondary.no-widgets ul ul {
+	padding: 0;
+	}
+div#comic-sidebar li.widget {
+	margin: 5px;
+	display: block;
+	width: 150px;
+	float: left;
+	padding: 6px;
+	}
+div#comic-container.horizontal div#comic-sidebar {
+	float: none;
+	clear: both;
+	width: 100%;
+	}
+div#comic-container.vertical div#comic-sidebar {
+	float: right;
+	}
+
+div#comic-sidebar li.widget h3 {
+	font-size: 1em;
+	}
+div#primary.no-widgets ul ul, div#secondary.no-widgets ul ul {
+	padding: 0;
+	}
+	
+div#secondary li.widget a, div#primary li.widget a, div#primary.no-widgets a,div#secondary.no-widgets a {
+	font-weight: bold;
+	}
+
+/* Comic calendar widget */
+div#stripshow_calendar_wrap table {
+	text-align:center;
+	margin: 0 auto;
+	}
+table.stripshow-comic-calendar a {
+	text-decoration: underline;
+	}
+
+/* Storylines widget */
+div.sidebar li.widget#storylines input.button {
+	margin-top: 4px;
+	float: right;
+	}
+div.sidebar li.widget#storylines p {
+	margin: 0;
+	}
+fieldset.storyline_dropdown select {
+	width: 129px;
+	}
+	
+
+div.sidebar li.widget ul.stripshow-bookmark {
+	margin: 0 auto;
+	}
+

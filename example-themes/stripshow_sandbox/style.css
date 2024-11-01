@@ -1,0 +1,24 @@
+/*
+THEME NAME: stripShow Sandbox
+THEME URI: http://stripshow.monkeylaw.org
+DESCRIPTION: stripShow framework theme
+VERSION: 2.5
+AUTHOR: Brad Hawkins
+AUTHOR URI:http://stripshow.monkeylaw.org
+TAGS: webcomics,stripShow, sandbox
+
+This theme is derived from Sandbox version 1.6 (http://wordpress.org/extend/themes/sandbox) by Andy Skelton and Scott Allan Wallick, with modifications for WordPress 2.7 by Dreamcolor (http://www.dreamcolor.net). Original Sandbox documentation and translations are included with this theme, and most information therein applies to the derived theme.
+*/
+
+/* These two really ought to be retained in your child theme. */
+@import url('library/styles/reset.css'); 
+@import url('library/styles/layout.css');
+
+/* These are completely expendable. */
+@import url('library/styles/typography.css');
+@import url('library/styles/colors.css'); 
+@import url('library/styles/superfish.css');
+@import url('library/styles/icons.css');
+@import url('library/styles/widgets.css');
+
+@import url('library/styles/shiny.css');

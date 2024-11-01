@@ -1,0 +1,36 @@
+/* Rounded corner styles for stripShow example theme */
+/* At the time of this writing, the CSS3 border-radius property is not supported by any major browser. Safari and other webkit browsers support the -webkit-border-radius property, Firefox and other Gecko browsers support -moz-border-radius, and Internet Explorer and Opera support nothing. */
+
+/* Rounded corners all around! */
+div, li.widget {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	}
+input, textarea, blockquote, div.entry-meta, span.unapproved, div#respond, div.comments li.comment, input.button, a.comment-reply-link, div#nav-above, div#nav-below, .transcript, h2.blog-header {
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	}
+div.page-link span.page-link-page {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	}
+
+div#comic-header {
+	-moz-border-radius-bottomright: 0;
+	-moz-border-radius-bottomleft: 0;
+	-webkit-border-bottom-right-radius: 0;
+	-webkit-border-bottom-left-radius: 0;
+	}
+
+div#access {
+	-moz-border-radius-topleft: 0;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius-topright: 0;
+	-webkit-border-top-right-radius: 0;
+	}
+div#secondary li.widget {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	}

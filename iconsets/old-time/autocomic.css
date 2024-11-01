@@ -1,0 +1,59 @@
+/**
+* Old Time theme for AutoComic
+*
+*/
+
+
+/*  Navigation bar */
+#autocomic ul.stripshow-comic-navbar{
+	height: 50px;
+	}
+#autocomic ul.stripshow-comic-navbar li {
+	height: 50px;
+	width: 50px;
+	margin: 4px;
+	background-image: url(autocomic-navbar.png);
+	}
+#autocomic ul.stripshow-comic-navbar li a {
+	background-image: url(autocomic-navbar.png);
+    }
+#autocomic ul.stripshow-comic-navbar li.first-comic, 
+#autocomic ul.stripshow-comic-navbar li.first-comic a {
+    width: 32px;
+    height: 36px;
+    }
+#autocomic ul.stripshow-comic-navbar li.last-comic, 
+#autocomic ul.stripshow-comic-navbar li.last-comic a
+{
+    width: 38px;
+    height:36px;
+    }
+#autocomic ul.stripshow-comic-navbar li.next-comic,
+#autocomic ul.stripshow-comic-navbar li.previous-comic,
+#autocomic ul.stripshow-comic-navbar li.next-comic a, 
+#autocomic ul.stripshow-comic-navbar li.previous-comic a {
+    width: 60px;
+    height: 31px;
+    }
+#autocomic ul.stripshow-comic-navbar li.next-story,
+#autocomic ul.stripshow-comic-navbar li.previous-story,
+#autocomic ul.stripshow-comic-navbar li.next-story a, 
+#autocomic ul.stripshow-comic-navbar li.previous-story a {
+    width: 65px;
+    height: 49px;
+    }
+#autocomic ul.stripshow-comic-navbar li.random-comic,
+#autocomic ul.stripshow-comic-navbar li.random-comic a {
+    width: 55px;
+    height:39px;
+    background-color: Red;
+    }
+
+
+/**
+* Alternate nav configuration
+*/
+#autocomic.nav-right ul.stripshow-comic-navbar {
+	width: 50px;
+	background-color: Red;
+	}

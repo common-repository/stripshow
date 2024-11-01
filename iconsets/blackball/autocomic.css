@@ -1,0 +1,42 @@
+/**
+* Blackball theme for AutoComic
+*
+*/
+
+#autocomic .comic-nav {
+	padding: 6px;
+	width: 400px;
+	margin: 0 auto;
+	}
+
+#autocomic ul.autocomic-sidebar li.widget {
+    margin-left: 10px;
+    padding: 4px;
+    }
+/*  Navigation bar */
+#autocomic ul.stripshow-comic-navbar{
+	height: 50px;
+	}
+#autocomic ul.stripshow-comic-navbar li {
+	height: 50px;
+	width: 50px;
+	background-image: url(autocomic-navbar.png);
+	}
+#autocomic ul.stripshow-comic-navbar li a:link, #autocomic ul.stripshow-comic-navbar li a:visited {
+	width: 50px;
+	height: 50px;
+	}
+#autocomic ul.stripshow-comic-navbar li a {
+	background-image: url(autocomic-navbar.png);
+    }
+#autocomic ul.stripshow-comic-navbar li.first-comic, #autocomic ul.stripshow-comic-navbar li.last-comic {
+    width: 32px;
+    }
+
+/**
+* Alternate nav configuration
+*/
+#autocomic.nav-right ul.stripshow-comic-navbar {
+	width: 50px;
+	background-color: Red;
+	}

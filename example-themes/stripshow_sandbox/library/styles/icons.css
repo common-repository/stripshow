@@ -1,0 +1,91 @@
+/*  Navigation bar */
+ul.stripshow-comic-navbar{
+	width: 135px;
+	height: 30px;
+	padding: 0;
+	margin: 0 auto;
+	display: block;
+	}
+ul.stripshow-comic-navbar li {
+	display: block;
+	height: 30px;
+	width: 27px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	float: left;
+	background-image: url(../images/comic-navbar-black.png);
+	background-repeat: no-repeat;
+	}
+ul.stripshow-comic-navbar li a:link, ul.stripshow-comic-navbar li a:visited, span.nav-widget a, span.nav-widget a:visited {
+	display: block;
+	width: 27px;
+	height: 30px;
+	}
+.linktext { display: none; }
+
+
+ul.stripshow-comic-navbar li a, span.nav-widget a {
+	background-image: url(../images/comic-navbar-black.png);
+	}
+
+	
+/* Regular arrows */
+.first-comic a { background-position: 0 -50px;}
+.previous-comic a { background-position: -50px -50px;}
+.next-comic a { background-position: -100px -50px;}
+.last-comic a { background-position: -150px -50px;}
+.random-comic a { background-position: -200px -50px;}
+
+/* Disabled arrows */
+li.first-comic { background-position: 0 0px;}
+li.previous-comic { background-position: -50px 0px;}
+li.next-comic { background-position: -100px 0px;}
+li.last-comic { background-position: -150px 0px;}
+li.random-comic { background-position: -200px 0px;}
+
+/* Active arrows */
+.first-comic a:hover { background-position: 0 -100px;}
+.previous-comic a:hover { background-position: -50px -100px;}
+.next-comic a:hover { background-position: -100px -100px;}
+.last-comic a:hover { background-position: -150px -100px;}
+.random-comic a:hover { background-position: -200px -100px;}
+
+
+/* Bookmark icons */
+/* Bookmarks widget */
+ul.stripshow-bookmark {
+	display: block;
+	height: 36px;
+	width: 108px;
+	overflow: hidden;
+	}
+.stripshow-bookmark li {
+	display: block;
+	height: 36px;
+	width: 36px;
+	float: left;
+	}
+.stripshow-bookmark li.bookmark-set { background-position: 0 0; }
+.stripshow-bookmark li.bookmark-goto { background-position: -50px 0; }
+.stripshow-bookmark li.bookmark-clear { background-position: -100px 0; }
+.stripshow-bookmark li a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-indent: -9000px;
+	}
+.stripshow-bookmark li.bookmark-set a { background-position: 0 -50px; }
+.stripshow-bookmark li.bookmark-goto a { background-position: -50px -50px; }
+.stripshow-bookmark li.bookmark-clear a { background-position: -100px -50px; }
+.stripshow-bookmark li.bookmark-set a:hover { background-position: 0 -100px; }
+.stripshow-bookmark li.bookmark-goto a:hover { background-position: -50px -100px; }
+.stripshow-bookmark li.bookmark-clear a:hover { background-position: -100px -100px; }
+
+.stripshow-bookmark li {
+	background: transparent url(../images/bookmarks.png) no-repeat;
+	}
+.stripshow-bookmark li a {
+	background: transparent url(../images/bookmarks.png) no-repeat;
+	}
+

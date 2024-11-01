@@ -1,0 +1,168 @@
+#icon-stripshow-admin {
+	background: transparent url(images/stripshow-admin.png) no-repeat;
+	}
+	
+
+table.date-legend {
+	font-size: .8em;
+	width: 400px;
+	border: 1px solid Blue;
+	text-align: left;
+	}
+	
+table.date-legend th {
+	text-align: left;
+	}
+
+/* Tabs for Import Comics page */
+	#stripshow-tabs ul {
+		width: 306px;
+		margin: 0 auto;
+		}
+	#stripshow-tabs div.tab {
+		margin: 0 20px;
+		border: 1px solid #cccccc;
+		-moz-border-radius: 6px;
+		padding: 10px;
+		background-color: #ffffff;
+		}
+	#stripshow-tabs li {
+		float:left;
+		width: 100px;
+		border: 1px solid #cccccc;
+		border-bottom: 0px;
+		-moz-border-radius-topleft: 6px;
+		-moz-border-radius-topright: 6px;
+		background: transparent url('../../../../wp-admin/images/gray-grad.png');
+		text-align: center;
+		margin: 0;
+		}
+	#stripshow-tabs li.ui-state-active {
+		background: #ffffff;
+		border-bottom: 1px solid #ffffff;
+		}
+	#stripshow-tabs ul.tablist li a {
+		text-decoration: none;
+		color: #666666;
+		display:block;
+		padding: 4px;
+		width: 92px;
+		}
+	#stripshow-tabs li.ui-state-hover {
+		background: transparent url('../../../../wp-admin/images/blue-grad.png');
+		}
+	#stripshow-tabs li.ui-state-hover.ui-state-active {
+		background: #ffffff;
+		}
+
+	#stripshow-tabs ul.tablist {
+		padding: 0;
+		clear: both;
+		margin-bottom: -1px;
+		margin-left: 100px;
+		float:left;
+		}
+	#stripshow-tabs div {
+		clear: both;
+		}
+
+
+#posts-filter .manage-column {
+	width: 10%;
+	}
+
+.column-comic {
+	width: 20%;
+	text-align: left;
+	}
+.column-comments {
+	width: 5%;
+	}
+	
+select.attach-comics {
+	width: 150px;
+	}
+
+.stripshow-admin-logo {
+	text-align: center;
+	margin-top: 30px;
+	}
+.stripshow-error .error {
+	width: 400px;
+	padding: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+.stripshow-summary {
+	margin-top: 30px;
+	}
+table.stripshow-info {
+	width: 300px;
+	margin: 0 auto;
+	-moz-border-radius: 4px;
+	}
+table.stripshow-info th[scope="row"] {
+	text-align: right;
+	width: 150px;
+	padding-right: 10px;
+	}
+table.stripshow-info td {
+	padding: 2px 0;
+	}
+table.stripshow-info .error {
+	margin: 0;
+	padding: 4px;
+	}
+	
+#autocomic-options-section {
+	margin:  0 20px;
+	border: 1px solid #cccccc;
+	padding: 0 10px 10px 10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	}
+	
+#autocomic-css textarea {
+	font-family: monospace;
+	width: 300px;
+	height: 200px;
+	}
+#autocomic-css label {
+	vertical-align: top;
+	width: 300px;
+	text-align: right;
+	}
+#autocomic-theme-preview {
+	width: 60px;
+	height: 60px;
+	border: 1px solid #cccccc;
+	background-position: -200px -100px;
+	}
+select#which-pages {
+	height: 100px;
+	}
+
+
+.ui-dialog.flooble {
+	background-color: White;
+	padding: 4px;
+	-moz-border-radius: 8px;
+	border: 1px solid #cccccc;
+	}
+.ui-dialog-content {
+	padding: 10px;
+	}
+a.ui-dialog-titlebar-close {
+	height: 10px;
+	width: 10px;
+	display: block;
+	background-image: url('../../../../wp-admin/images/xit.gif');
+	background-color: white;
+	float: right;
+	}
+a.ui-dialog-titlebar-close span {
+	display:none;
+	}
+
+
+

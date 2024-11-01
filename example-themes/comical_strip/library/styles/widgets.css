@@ -1,0 +1,81 @@
+/* Widget styles */
+div.sidebar li.widget ul {
+	margin-left: 1em;
+	text-indent: -1em;
+	}
+div.sidebar li.widget ul ul{
+	margin-left: 1em;
+	}
+div#secondary li.widget {
+	font-size: .8em;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	}
+div#primary li.widget,div#secondary li.widget, div#primary.no-widgets ul, div#secondary.no-widgets ul {
+	padding: 10px;
+	}
+div#primary.no-widgets ul ul, div#secondary.no-widgets ul ul {
+	padding: 0;
+	}
+	
+div#secondary li.widget a, div#primary li.widget a, div#primary.no-widgets a,div#secondary.no-widgets a {
+	font-weight: bold;
+	}
+
+/* Comic calendar widget */
+div#stripshow_calendar_wrap table {
+	text-align:center;
+	margin: 0 auto;
+	}
+
+/* Storylines widget */
+div.sidebar li.widget#storylines {
+	text-align: center;
+	}
+div.sidebar li.widget#storylines input.button {
+	margin-top: 4px;
+	float: right;
+	}
+div.sidebar li.widget#storylines p {
+	margin: 0;
+	}
+fieldset.storyline_dropdown select {
+	border: 0;
+	width: 129px;
+	}
+	
+/* Bookmarks widget */
+ul.stripshow-bookmark {
+	display: block;
+	height: 36px;
+	width: 108px;
+	overflow: hidden;
+	}
+.stripshow-bookmark li {
+	display: block;
+	height: 36px;
+	width: 36px;
+	float: left;
+	background: transparent url(../images/bookmarks.png) no-repeat;
+	}
+.stripshow-bookmark li.bookmark-set { background-position: 0 0; }
+.stripshow-bookmark li.bookmark-goto { background-position: -50px 0; }
+.stripshow-bookmark li.bookmark-clear { background-position: -100px 0; }
+.stripshow-bookmark li a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-indent: -9000px;
+	background: transparent url(../images/bookmarks.png) no-repeat;
+	}
+.stripshow-bookmark li.bookmark-set a { background-position: 0 -50px; }
+.stripshow-bookmark li.bookmark-goto a { background-position: -50px -50px; }
+.stripshow-bookmark li.bookmark-clear a { background-position: -100px -50px; }
+.stripshow-bookmark li.bookmark-set a:hover { background-position: 0 -100px; }
+.stripshow-bookmark li.bookmark-goto a:hover { background-position: -50px -100px; }
+.stripshow-bookmark li.bookmark-clear a:hover { background-position: -100px -100px; }
+
+div.sidebar li.widget ul.stripshow-bookmark {
+	margin: 0 auto;
+	}
+

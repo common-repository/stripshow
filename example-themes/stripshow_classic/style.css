@@ -1,0 +1,804 @@
+/*  
+Theme Name: stripShow Classic
+Theme URI: http://stripshow.monkeylaw.org
+Description: A simple theme to demonstrate the capabilities of the wpStripShow plugin for Wordpress
+Version: 1.6
+Author: Brad Hawkins
+Author URI: http://stripshow.monkeylaw.org
+
+	This theme was based on ComicPress 2.0 beta, which was based on the WordPress default Kubrick theme.
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+body {
+/*  font-size: 62.5%;  Resets 1em to 10px */
+font-size: 12px;
+  font-family: Arial, Sans-Serif;
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0; 
+  }
+	
+#header {
+  margin: 20px auto;
+  width: 796px;
+  }
+	
+#headerbar {
+  background-color: #454545;
+  margin: 0 auto;
+  height: 25px;
+  width: 796px;
+  }
+
+#comic {
+  margin: 0px auto;
+  width: 796px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #C0C0C0;
+	text-align: center;
+	}
+.comic {
+	margin: 0px auto;
+	text-align: center;
+	}
+#page {
+  margin: 0px auto;
+  padding: 0;
+  width: 796px;
+  text-align: left;
+  }
+  
+#sidebar {
+  margin-left: 545px;
+  padding: 7px 0 10px 10px;
+  width: 240px;
+  }
+  
+#footer {
+  width: 796px;
+  clear: both;
+  padding: 50px 0 0 0;
+  font-size: 62.5%;
+  text-align: center;
+  }
+
+#footer p {
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #C0C0C0;
+  }
+
+.comicarchiveframe {
+  border: 2px dotted #C0C0C0;
+  margin: 20px 0 10px 0;
+  padding: 5px;
+  }
+
+
+/* POST STRUCTURE */
+
+.narrowcolumn {
+  float: left;
+  padding: 5px 0 0 0px;
+  margin: 0;
+  width: 520px;
+  }
+  
+.blogheader {
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 545px;
+  }
+
+#leftcontainer {
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 545px;
+  }
+
+.post {
+  margin: 0;
+  text-align: justify;
+  }
+
+.widecolumn {
+  margin: 0px auto;
+  width: 796px;
+  }
+
+.widecolumn .post {
+  margin: 0;
+  }
+
+.narrowcolumn .postmetadata {
+  padding-top: 5px;
+  clear: both;
+  }
+
+.widecolumn .postmetadata {
+  margin: 30px 0;
+  }
+  
+
+
+/* FONTS */
+
+a, .entry p a:visited {
+  color: #009900;
+  text-decoration: none;
+  }
+
+a:hover {
+  color: #FF0000;
+  text-decoration: underline;
+  }
+a.ext:link, a.ext:visited {
+	target-name: new;
+	target-new: window;
+	}	
+  
+h2 a:hover, h3 a:hover {
+  color: #FF0000;
+  }
+
+.headernav {
+  font: bold 4em Sans-Serif;
+  float: right;
+  margin: -15px 5px -10px 0;
+  }
+
+.headernav a {
+  color: #FFFFFF;
+  }
+
+.headernav a:hover {
+  color: #FF0000;
+  text-decoration: none;
+  }
+  
+.headerbarlinks {
+  font: bold 1.4em Sans-Serif;
+  padding: 4px 0 0 10px;
+  color: #333333;
+  text-align: left;
+  letter-spacing: 4px;
+  }
+
+.headerbarlinks a{
+  color: #999999;
+  letter-spacing: 0;
+  }
+
+.headerbarlinks a:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+  letter-spacing: 0;
+  }
+
+.comicnav {
+  font-size: 0.75em;
+  float: right;
+  padding: 3px 0 0 0;
+  }
+
+.comicnav a {
+  color: #333;
+  }
+
+.comicnav a:hover {
+  color: #FF0000;
+  text-decoration: none;
+  }
+
+.comicdate {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #666666;
+  }
+  
+
+.widecolumn .entry p {
+  font-size: 1.05em;
+  }
+
+.narrowcolumn .entry, .widecolumn .entry {
+  line-height: 1.4em;
+  }
+
+.widecolumn {
+  line-height: 1.6em;
+  }
+  
+.narrowcolumn .postmetadata {
+	font-size: 62.5%;  /* Resets 1em to 10px */
+
+  text-align: right;
+  }
+
+.alt {
+  background-color: #F7F7F7;
+  border-top: 1px solid #7D7D7D;
+  border-bottom: 1px solid #7D7D7D;
+  }
+  
+.description {
+  font-size: 1.4em;
+  text-align: left;
+  font-family: sans-serif;
+  font-style: italic;
+  }
+
+#sidebar {
+	text-align: center;
+  }
+  
+#sidebar h2 {
+  font-family: 'Lucida Grande', Verdana, Sans-Serif;
+ font-size: 1.2em; 
+  }
+  
+small {
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  }
+
+/*
+.narrowcolumn h2 {
+	width: 400px;
+	text-align: center;
+	margin: 0px auto 10px auto;
+	background-color: Green;
+	}
+*/
+h2, h3 {
+  font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+  font-weight: bold;
+  }
+
+h1 {
+  font-family: Verdana;
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: -2px;
+  color: #999999;
+  }
+
+h2 {
+  font-size: 1.6em;
+  }
+
+h2.pagetitle {
+  font-size: 1.6em;
+  }
+
+h3 {
+  font-size: 1.3em;
+  }
+
+.post h3 {
+  border-bottom: 2px solid #7D7D7D;
+  }
+
+h1, h1 a, h1 a:hover, h1 a:visited {
+  text-decoration: none;
+  }
+
+.description {
+  color: #555555;
+  letter-spacing: 2px;
+  }
+
+h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited {
+  }
+
+h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
+  text-decoration: none;
+  }
+
+.commentlist li, #commentform input, #commentform textarea {
+  font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+  }
+  
+.commentlist li {
+  font-weight: bold;
+  overflow: auto;
+  }
+
+.commentlist cite, .commentlist cite a {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.1em;
+  }
+
+.commentlist p {
+  font-weight: normal;
+  line-height: 1.5em;
+  text-transform: none;
+  }
+
+#commentform p {
+  font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+  }
+
+.commentmetadata {
+  font-weight: normal;
+  }
+
+small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
+  color: #7D7D7D;
+  }
+  
+code {
+  font: 1.1em 'Courier New', Courier, Fixed;
+  }
+
+acronym, abbr, span.caps {
+  font-size: 0.9em;
+  letter-spacing: .07em;
+  }
+
+/*
+.latestcomics {
+  font-family: sans-serif;
+  }
+*/  
+  
+
+/* TEXT MARGINS */
+
+h1 {
+  padding: 0 0 0 10px;
+  margin: 0;
+  }
+
+.description {
+  padding: 0px 0 10px 30px;
+  margin: -3px 0 0 0;
+  }
+
+h2 {
+  margin: 0 0 0 0;
+  }
+
+h2.pagetitle {
+  margin: 10px 0 0 0;
+  padding: 0 0 5px 0;
+  text-align: left;
+  }
+
+#sidebar h2 {
+  margin: 5px 0 0;
+  padding: 0;
+  }
+
+h3 {
+  padding: 0;
+  margin: 30px 0 0;
+  }
+
+h3.comments {
+  padding: 0;
+  margin: 40px auto 20px ;
+  }
+
+p img {
+  padding: 0;
+  max-width: 100%;
+  }
+
+
+
+/* LISTS */
+
+html>body .entry ul {
+  margin-left: 0px;
+  padding: 0 0 0 30px;
+  list-style: none;
+  padding-left: 10px;
+  text-indent: -10px;
+  } 
+
+html>body .entry li {
+  margin: 7px 0 8px 10px;
+  }
+
+
+.entry ol {
+  padding: 0 0 0 35px;
+  margin: 0;
+  }
+
+.entry ol li {
+  margin: 0;
+  padding: 0;
+  }
+
+.postmetadata ul, .postmetadata li {
+  display: inline;
+  list-style-type: none;
+  list-style-image: none;
+  }
+  
+#sidebar ul, #sidebar ul ol {
+  margin: 0;
+  padding: 0;
+  }
+
+#sidebar ul li {
+  list-style-type: none;
+  list-style-image: none;
+  margin-bottom: 15px;
+  }
+
+#sidebar ul p, #sidebar ul select {
+  margin: 5px 0 8px;
+  }
+fieldset {
+	border: none;
+	}
+
+#sidebar ul ul, #sidebar ul ol {
+  margin: 5px 0 0 10px;
+  }
+
+#sidebar ul ul ul, #sidebar ul ol {
+  margin: 0 0 0 10px;
+  }
+
+ol li, #sidebar ul ol li {
+  list-style: decimal outside;
+  }
+
+#sidebar ul ul li, #sidebar ul ol li {
+  margin: 3px 0 0;
+  padding: 0;
+  }
+
+#sidebar ul {
+	font-size: 90%;
+	}
+
+/* FORMS */
+
+#commentform textarea, #s, #author, #email, #url, select, textarea {
+  background: #FFFFFF;
+  color: #555555;
+  border: 1px solid #BBBBBB;
+  padding: 2px;
+  }
+  
+#searchsubmit, #searchsubmitclear, #sortsubmit {
+  color: #7F0000;
+  background: #DDDDDD;
+  border: 1px solid #BBBBBB;
+  }
+ 
+#commentform #submit a, #commentform #submit a:hover {
+	color: #ffff00;
+	}
+#commentform #submit {
+	background-image: url(images/stripshow_button_background.gif);
+	width:127px;
+	height: 24px;
+	color: #ffffff;
+	border: 0;
+	}
+ 
+#commentform #submit:hover, #searchsubmit:hover, #searchsubmitclear:hover, #sortsubmit:hover {
+  color: #ffff00;
+  }
+
+#searchsubmitclear {
+  margin: 0 0 0 3px;
+  }
+  
+#commentform #submit {
+  margin: 0;
+  float: right;
+  }
+  
+#commentform input {
+  width: 170px;
+  padding: 2px;
+  margin: 5px 5px 1px 0;
+  }
+
+#commentform textarea {
+  width: 100%;
+  }
+
+#sidebar #searchform #s {
+  width: 108px;
+  padding: 2px;
+  }
+
+#sidebar #searchsubmit {
+  padding: 1px;
+  }
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+  text-align:center;
+  }
+
+select {
+  width: 130px;
+  }
+
+#sidebar form {
+  margin: 0;
+  }
+ 
+  
+
+
+/* COMMENTS */
+
+.alt {
+  margin: 0;
+  padding: 10px;
+  }
+
+.commentlist {
+  padding: 0;
+  text-align: justify;
+  }
+
+.commentlist li {
+  margin: 15px 0 3px;
+  padding: 5px 10px 3px;
+  list-style: none;
+  }
+
+.commentlist p {
+  margin: 10px 5px 10px 0;
+  }
+
+#commentform p {
+  margin: 5px 0;
+  }
+
+.nocomments {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  }
+
+.commentmetadata {
+  margin: 0;
+  display: block;
+  }
+
+
+
+/* CALENDAR */
+
+#wp-calendar #prev a {
+  }
+
+#wp-calendar a {
+	color: #009900;
+  text-decoration: none;
+  }
+#wp-calendar a:visited {
+	color: #009900;
+  text-decoration: none;
+  }
+
+#wp-calendar caption {
+  font: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+  text-align: center;
+  color: #cccccc;
+  text-align: center;
+  width: 100%;
+  padding: 0 0 3px 0;
+  }
+
+#wp-calendar th {
+  font-style: normal;
+  text-transform: capitalize;
+  }
+
+#wp-calendar {
+  empty-cells: show;
+  margin: 0 auto 0;
+  width: 155px;
+  font-size: .8em;
+  color: #cccccc;
+  }
+
+#wp-calendar #next a {
+  padding-right: 10px;
+  text-align: right;
+  }
+
+#wp-calendar #prev a {
+  padding-left: 10px;
+  text-align: left;
+  }
+
+#wp-calendar a {
+  display: block;
+  }
+
+#wp-calendar a:hover {
+  background: #ff0000;
+  color: #000000;
+  }
+
+#wp-calendar td {
+  padding: 0;
+  text-align: center;
+  }
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+  background-color: #fff; }
+
+
+
+/* VARIOUS */
+
+hr {
+  color: #7D7D7D;
+  background-color: #7D7D7D;
+  height: 2px;
+  border: 0px;
+  }
+  
+acronym, abbr, span.caps {
+  cursor: help;
+  }
+
+acronym, abbr {
+  border-bottom: 1px dashed #999;
+  }
+
+blockquote {
+  margin: 15px 30px 0 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  border-left: 5px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  }
+
+blockquote cite {
+  margin: 5px 0 0;
+  display: block;
+  }
+
+.center {
+  text-align: center;
+  }
+
+a img {
+  border: none;
+  }
+
+.navigation {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  }
+
+
+/* THE END */
+
+
+/* Navigation link styling for comics pages */
+#sidebarNavArrows, #indexNavArrows, #singleNavArrows {
+	margin: 0px auto;
+	}
+.first_day a {
+	display: block;
+	width: 42px;
+	height: 32px;
+	}
+.previous_day, .next_day, .first_day, .last_day {
+	display: block;
+	height: 32px;
+	width: 42px;
+	}
+.previous_day a {
+	display: block;
+	width: 42px;
+	height: 32px;
+	}
+.next_day a {
+	display: block;
+	width: 42px;
+	height: 32px;
+	}
+.last_day a {
+	display: block;
+	width: 42px;
+	height: 32px;
+	}
+.hideMe {
+	height: 0px;
+	width: 0px;
+	}
+
+
+/* Specific box settings */
+#frontPageBlog {
+	width: 520px;
+	float:left;
+	padding: 0 10px 0 0;
+	}
+.copyright {
+	text-align: center;
+	vertical-align: bottom;
+	font-size: .82em;
+	color: #666666;
+	}
+.copyright a {
+	margin: 0;
+	padding: 0;
+	}
+.disclaimer {
+	text-align: center;
+	font-size: .82em;
+	}
+	.hideMe {
+	height: 0px;
+	width: 0px;
+	}
+
+.links {
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+.linkListLeft {
+	width: 295px;
+	float: left;
+	}
+#mainMenu table {
+	margin-left: auto;
+	margin-right: auto;
+	}
+.credits {
+	margin-bottom: 10px;
+	}
+
+/* Styles for transcripts */
+table.transcript {
+	margin: 10px;
+	width: 500px;
+	background-color: #e0efe0;
+	}
+.transcript_character,.transcript_dialogue {
+	vertical-align: top;
+	padding: 4px;
+	color: #666666;
+	}
+.transcript_dialogue {
+	width: 350px;
+	}
+.transcript_character {
+	width: 150px;
+	text-align: right;
+	padding-right: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	}
+.transcript_description {
+	padding: 4px;
+	color: #666666;
+	}
+.transcript_misc {
+	padding: 4px;
+	color: #666666;
+	}

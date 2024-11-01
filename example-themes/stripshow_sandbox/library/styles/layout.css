@@ -1,0 +1,529 @@
+/* Settings for HTML elements */
+body {
+	margin: 10px;
+	}
+blockquote {
+	margin: 10px 10px 10px 20px;
+	padding: 0 10px 0 20px;
+	}
+img {
+	border: none;
+	}
+textarea {
+	height: 13em;
+	margin: 0 0 0.5em;
+	overflow: auto;
+	width: 66%;
+	}
+td {
+	display: table-cell;
+	padding: 2px;
+	}
+input, textarea {
+	padding: 2px;
+	}
+
+
+/* Overall page width */
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	}
+
+/* Fixed width doesn't play nice with IE6. Sorry. */
+* html div#wrapper {
+	width: 100%;
+	}
+
+/* Header and footer */
+#header,#footer {
+	margin-top: 20px;
+	clear:both;
+	width: auto;
+	}
+#header {
+	overflow: visible;
+	}
+#blog-title {
+	margin: 0;
+	text-align: left;
+	}
+#blog-description {
+	margin-top: 0;
+	}
+#branding {
+	width: 300px;
+	float: left;
+	margin: 10px;
+	height: 100px;
+	}
+#header-aside {
+	width: 480px;
+	position: absolute;
+	left: 370px;
+	top: 10px;
+	clear: right;
+	}
+#header-navbar { /* The specific instance of the navbar located in the header */
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	width: 108px;
+	}
+#footer {
+	margin-top: 20px;
+	padding: 10px;
+	}
+
+.skip-link {
+    display:none;
+}
+#access {
+	position: relative;
+	clear: both;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+    height: 32px; /* Multiply this if your menu goes to more than one line */
+    overflow:visible;
+    z-index:100;
+}
+.menu {
+	margin: 0 10px;
+	}
+div#main {
+	overflow:hidden;
+	clear: both;
+	}
+
+
+
+/* stripShow comic section */
+#comic-container {
+	width: 100%;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	clear:both;
+	}
+#comic {
+	text-align: center;
+	}
+#comic-container.horizontal div#comic {
+	width: 794px;
+	margin: 0 auto;
+	}
+#comic-container.vertical div#comic {
+	width: 780px;
+	float: left;
+	}
+#comic-header {
+	padding: 5px 15px 5px 10px;
+	overflow: hidden;
+	height: 30px;
+	}
+	#comic-header h2 {
+		width: 500px;
+		height: 30px;
+		float: left;
+		line-height: 30px;
+		}
+#comic-header ul.stripshow-comic-navbar {
+	width: 108px;
+	float: right;
+	}
+#comic-container.horizontal div.comic-rant {
+	width: 500px;
+	margin: 10px auto;
+	}
+
+
+.gallery dl,div.navigation div.nav-previous {
+	float:left;
+	}
+
+
+/* Sidebars */
+/*div#container,div#primary,div#secondary {
+	margin-top: 2em;
+	}*/
+.sidebar input#s {
+	width: 95%;
+	display: block;
+	margin-bottom: 4px;
+	}
+#searchform {
+	text-align: right;
+	}
+
+
+
+
+/* Content section */
+h2.blog-header {
+	margin-top: 0px;
+	text-align: center;
+	padding: 4px;
+	}
+div#nav-above {
+	margin-bottom:1em;
+	}
+	
+div#nav-below {
+	margin-top:1em;
+	}
+.entry-title,.entry-meta {
+	clear:both;
+	}
+	
+
+/* Comments */
+
+form#commentform .form-label {
+	margin: 1em 0 0;
+	}
+
+form#commentform,form#commentform p {
+	padding:0;
+	}
+
+input#author,input#email,input#url,textarea#comment {
+	padding:0.2em;
+	}
+
+textarea#comment {
+	height:13em;
+	margin:0 0 0.5em;
+	overflow:auto;
+	width:66%;
+	}
+
+/* Post content */
+.alignright,img.alignright{
+	float:right;
+	margin:1em 0 0 1em;
+	}
+
+.alignleft,img.alignleft{
+	float:left;
+	margin:1em 1em 0 0;
+	}
+
+.aligncenter,img.aligncenter{
+	display:block;
+	margin:1em auto;
+	text-align:center;
+	}
+
+/* Gallery */
+div.gallery {
+	clear:both;
+	height:180px;
+	margin:1em 0;
+	width:100%;
+	}
+
+div.gallery dl{
+	margin:1em auto;
+	overflow:hidden;
+	text-align:center;
+	}
+
+div.gallery dl.gallery-columns-1 {
+	width:100%;
+	}
+
+div.gallery dl.gallery-columns-2 {
+	width:49%;
+	}
+	
+div.gallery dl.gallery-columns-3 {
+	width:33%;
+	}
+	
+div.gallery dl.gallery-columns-4 {
+	width:24%;
+	}
+	
+div.gallery dl.gallery-columns-5 {
+	width:19%;
+	}
+	
+img.gallery-image {
+	width: 90%;
+	}
+
+div.gallery dl {
+	margin:1em auto;
+	overflow:hidden;
+	text-align:center;
+	}
+	
+	
+div#nav-images {
+	height:150px;
+	margin:1em 0;
+	}
+
+div.navigation {
+	height:1.25em;
+	}
+	
+div.navigation div.nav-next {
+	float:right;
+	text-align:right;
+	}
+	
+
+input#author,input#email,input#url,div.navigation div {
+width:50%;
+}
+
+div.gallery *,div.sidebar div,div.sidebar h3,div.sidebar ul {
+	margin:0;
+	padding:0;
+	}
+
+
+
+body.home div.post {
+	margin-bottom: 20px;
+	padding: 10px;
+	}
+div#content {
+	margin-bottom: 20px;
+	padding: 10px;
+	}
+	
+div.skip-link {
+	display: none;
+	}
+
+div#nav-above, div#nav-below {
+	clear: both;
+	height: 1.5em;
+	vertical-align: middle;
+	margin-bottom: 1em;
+	padding: 4px 6px 6px 6px;
+	}
+div#nav-below {
+	margin-top: 20px;
+	}
+body.single div#nav-below {
+	display: none;
+	}
+
+
+div.entry-meta, span.unapproved {
+	padding: 4px;
+	}
+	
+div.page-link {
+	margin-bottom: 10px;
+	}
+	
+div.page-link span.page-link-page{
+	padding: 0 4px;
+	}
+div.comments div.comment-meta {
+	padding: 4px;
+	}
+span.unapproved {
+	display: block;
+	padding: 4px;
+	}
+div.comments ul.children {
+	margin-top: 10px;
+	}
+
+div#respond {
+	margin-top: 10px;
+	padding: 10px;
+	}
+div#respond h3 {
+	margin-top: 0;
+	}
+
+div.comments li.comment {
+	margin-right: 10px;
+	padding: 10px;
+	}
+div.comments li.comment ul.children li {
+	margin-bottom: 10px;
+	}
+
+form#commentform .form-label {
+	margin: 1em 0 .25em 0;
+	}
+
+a.comment-reply-link {
+	padding: 4px;
+	}
+input.button {
+	padding: 2px;
+	}
+input.button,a.comment-reply-link {
+	border: none;
+	text-align:center;
+	}
+input.button:hover,a.comment-reply-link:hover {
+	text-decoration: none;
+	}
+input#author,input#email,input#url,textarea#comment {
+	padding:0.2em;
+	}
+div#comments {
+	padding-top: 10px;
+	}
+
+div#comments-list ol {
+	clear:right;
+	}
+
+div.comments ol li {
+margin:0 0 20px 0;
+}
+
+
+.alignright,img.alignright{
+float:right;
+margin:1em 0 0 1em;
+}
+
+.alignleft,img.alignleft{
+float:left;
+margin:1em 1em 0 0;
+}
+
+.aligncenter,img.aligncenter{
+display:block;
+margin:1em auto;
+text-align:center;
+}
+
+
+div.navigation {
+	height:1.25em;
+	}
+
+.navigation .nav-next {
+	float:right;
+	text-align:right;
+	}
+
+div.sidebar li {
+	padding: 10px;
+	}
+
+div.sidebar li li {
+	padding: 0;
+	}
+
+.sidebar input#s {
+	width: 110px;
+	}
+	
+.sidebar li form {
+	margin:0.2em 0 0;
+	padding:0;
+	}
+	
+	
+	input#author,input#email,input#url,div.navigation div {
+	width:50%;
+	}
+	
+
+
+div#comic-container.horizontal div#comic-sidebar li.widget-stripshow-rant {
+	width: 420px;
+	}
+div#comic-container.horizontal div#comic-sidebar li.widget_stripshow_bookmark {
+	float: right;
+	width: 150px;
+	}
+	div#comic-container.horizontal div#comic-sidebar li#comic-navbar {
+		width: 150px;
+		float: right;
+		}
+		
+div#comic-container.vertical div#comic-sidebar li.widget {
+	float: none;
+	}
+
+	
+div#stripshow_calendar_wrap table {
+	text-align:center;
+	margin: 0 auto;
+	}
+fieldset.storyline_dropdown select {
+	width: 129px;
+	}
+
+/* Comic Archive styles */
+td.archive_date {
+	padding-right: 10px;
+	}
+
+* html li.widget_comic_navbar {
+	height: 35px;
+	}
+	
+
+
+/* Transcripts */
+.transcript-container {
+	margin: 10px 0 20px 0;
+	}
+
+.toggler_off, .toggler_on {
+	height: 16px;
+	display: block;
+	padding-left: 20px;
+	}
+
+table.transcript {
+	width: 90%;
+	margin: 10px auto 20px auto;
+	}
+tr.transcript_line {
+	width: 100%;
+	}
+table.transcript td {
+	padding: 0 4px;
+	}
+td.transcript_character {
+	width: 100px;
+	}
+td.transcript_dialogue {
+	width: 300px;
+	}
+td.transcript_description {
+	width: 100%;
+	}
+	
+/* Transcripts in rant widget */
+li.widget-stripshow-rant div.transcript {
+	margin-top: 6px;
+	padding: 4px;
+	font-size: .7em;
+	width: 140px;
+	}
+li.widget-stripshow-rant .transcript span {
+	display: block;
+	text-align: center;
+	}
+li.widget-stripshow-rant .transcript span.transcript_character {
+	text-transform: uppercase;
+	margin-bottom: 0;
+	line-height: 1em;
+	margin-top: 4px;
+	}
+li.widget-stripshow-rant .transcript span.transcript_description {
+	margin-top: 4px;
+	}
+
+div#primary,div#secondary {
+	width: 178px;
+	}

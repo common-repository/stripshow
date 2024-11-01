@@ -1,0 +1,22 @@
+/*
+THEME NAME: stripShow Sandbox Child Theme
+THEME URI: http://stripshow.monkeylaw.org
+DESCRIPTION: Blank child theme for stripShow Sandbox
+VERSION: 2.5
+AUTHOR: Brad Hawkins
+AUTHOR URI:http://stripshow.monkeylaw.org
+TAGS: webcomics,stripShow
+TEMPLATE: stripshow_sandbox
+
+This is a bare-bones example of a child theme for stripShow Sandbox. You can copy it into your themes folder, rename it, and edit the header, then you're good to go.
+*/
+
+@import url('../stripshow_sandbox/library/styles/reset.css'); 
+@import url('../stripshow_sandbox/library/styles/layout.css');
+@import url('../stripshow_sandbox/library/styles/typography.css');
+@import url('../stripshow_sandbox/library/styles/icons.css');
+@import url('../stripshow_sandbox/library/styles/superfish.css');
+@import url('../stripshow_sandbox/library/styles/widgets.css');
+@import url('../stripshow_sandbox/library/styles/colors.css'); 
+
+	

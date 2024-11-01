@@ -1,0 +1,171 @@
+/*
+THEME NAME: Golden
+THEME URI: http://stripshow.monkeylaw.org
+DESCRIPTION: stripShow theme with arrows on either side of the comic.
+VERSION: 2.1
+AUTHOR: Brad Hawkins
+AUTHOR URI:http://stripshow.monkeylaw.org
+TAGS: webcomics,stripShow, sandbox
+TEMPLATE: stripshow_sandbox
+
+This is a very simple example child theme for stripShow, consisting of one style.css, one functions.php, and some images for backgrounds. This theme shows off how you can make changes to the content of stripShow Sandbox without changing the parent theme -- see functions.php for the changes.
+*/
+
+@import url('../stripshow_sandbox/library/styles/reset.css'); 
+@import url('../stripshow_sandbox/library/styles/layout.css'); 
+
+
+@import url('../stripshow_sandbox/library/styles/typography.css');
+@import url('../stripshow_sandbox/library/styles/colors.css'); 
+@import url('../stripshow_sandbox/library/styles/superfish.css');
+@import url('../stripshow_sandbox/library/styles/icons.css');
+@import url('../stripshow_sandbox/library/styles/widgets.css');
+
+body {
+	font-family: Helvetica,sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: Black;
+	}
+a {
+	color: #997700;
+	}
+.button {
+	color: Black;
+	}
+a:active {
+	color: #ff0000;
+	}
+#wrapper { 
+	background-color: White;
+	margin: 0 auto;
+	}
+div#header {
+	margin: 0;
+	height: 113px;
+	}
+div#header a, div#footer a {
+	color: #000000;
+	}
+#branding {
+	height: 60px;
+	float: none;
+	width: 940px;
+	padding: 10px;
+	margin: 0;
+	background: transparent url('images/header-background.png') no-repeat;
+	}
+#branding * {
+	margin: 0;
+	}
+#header-aside h3.widgettitle {
+	text-align:center;
+	font-size: 1em;
+	}
+#access {
+	margin: 0;
+	border-bottom: 1px solid #cccccc;
+	}
+	
+
+
+div#comic-container {
+	width: 922px;
+	margin: 0 auto;
+	}
+	
+#comic {
+	float: left;
+	}
+#before-nav,#after-nav {
+	float: left;
+	height: 286px;
+	width: 64px;
+	}
+#after-nav {
+	clear: right;
+	}
+
+#before-nav a, #after-nav a {
+	text-indent: -9999px;
+	display: block;
+	height: 64px;
+	width: 64px;
+	margin-top: 100px;
+	}
+#before-nav a {
+	background: transparent url('images/previous-arrow.png') no-repeat;
+	}
+#after-nav a {
+	background: transparent url('images/next-arrow.png') no-repeat;
+	}
+	
+ul.sf-menu a:hover {
+	background-color: #ffcc00;
+	color: Black;
+	}
+	
+.entry-meta {
+	background-color: #333333;
+	color: White;
+	}
+.entry-meta a {
+	color: #ffee00;
+	}
+
+div.sidebar h3 {
+	height: 32px;
+	line-height: 32px;
+	background: transparent url('images/sidebar-header.png') repeat-x;
+	border: 2px solid #d88119;
+	padding-left: 10px;
+	margin: -10px -10px 6px -10px;
+	color: #000000;
+	}
+li.widget h3 {
+	text-align: left;
+	}
+h2.blog-header {
+	margin-top: -10px;
+	font-size: 1.2em;
+	height: 32px;
+	line-height: 32px;
+	color: #000000;
+	background: transparent url('images/sidebar-header.png') repeat-x;
+	border: 2px solid #d88119;
+	padding: 0;
+	}
+#primary,#secondary {
+	background-color: #333333;
+	color: #ffffcc;
+	}
+#primary a,#secondary a {
+	color: #ffee00;
+	}
+table#wp-calendar {
+	margin: 0 auto;
+	}
+#main {
+	padding: 10px;
+	}
+	
+.stripshow-bookmark li { background: transparent url(images/bookmarks.png) no-repeat;	}
+.stripshow-bookmark li a { background: transparent url(images/bookmarks.png) no-repeat;	}
+ul.stripshow-comic-navbar li {
+	background-image: url(images/comic-navbar.png);
+	}
+ul.stripshow-comic-navbar li a {
+	background-image: url(images/comic-navbar.png);
+	}
+fieldset.storyline_dropdown select {
+	width: 129px;
+	background-color: #cccccc;
+	background: transparent url('images/sidebar-header.png') repeat-x;
+	}
+fieldset.storyline_dropdown select option {
+	background-color: #ffcc00;
+	}
+fieldset.storyline_dropdown select option:hover {
+	background-color: #000000;
+	}
+	

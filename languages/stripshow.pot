@@ -1,0 +1,1044 @@
+# stripShow
+# Copyright (C) 2009 Brad Hawkins
+# This file is distributed under the same license as the PACKAGE package.
+# Brad Hawkins <bhawkins@monkeylaw.org>, 2009.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/stripshow\n"
+"POT-Creation-Date: 2009-10-10 01:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: example-themes/stripshow_sandbox/404.php:7
+#: example-themes/stripshow_sandbox/library/extensions/actions.php:123
+msgid "Not Found"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/404.php:9
+msgid ""
+"Apologies, but we were unable to find what you were looking for. Perhaps "
+"searching will help."
+msgstr ""
+
+#: example-themes/stripshow_sandbox/404.php:14
+#: example-themes/stripshow_sandbox/functions.php:389
+#: example-themes/stripshow_sandbox/search.php:57
+#: example-themes/stripshow_sandbox/sidebar.php:46
+msgid "Find"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:8
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:10
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:12
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:14
+msgid "Blog Archives"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:20
+#: example-themes/stripshow_sandbox/archive.php:53
+#: example-themes/stripshow_sandbox/author.php:12
+#: example-themes/stripshow_sandbox/author.php:45
+#: example-themes/stripshow_sandbox/category.php:11
+#: example-themes/stripshow_sandbox/category.php:46
+#: example-themes/stripshow_sandbox/index.php:7
+#: example-themes/stripshow_sandbox/index.php:29
+#: example-themes/stripshow_sandbox/tag.php:9
+#: example-themes/stripshow_sandbox/tag.php:45
+msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:21
+#: example-themes/stripshow_sandbox/archive.php:54
+#: example-themes/stripshow_sandbox/author.php:13
+#: example-themes/stripshow_sandbox/author.php:46
+#: example-themes/stripshow_sandbox/category.php:12
+#: example-themes/stripshow_sandbox/category.php:47
+#: example-themes/stripshow_sandbox/index.php:8
+#: example-themes/stripshow_sandbox/index.php:30
+#: example-themes/stripshow_sandbox/tag.php:10
+#: example-themes/stripshow_sandbox/tag.php:46
+msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:27
+#: example-themes/stripshow_sandbox/author.php:21
+#: example-themes/stripshow_sandbox/category.php:18
+#: example-themes/stripshow_sandbox/comic-rant.php:16
+#: example-themes/stripshow_sandbox/index.php:14
+#: example-themes/stripshow_sandbox/library/extensions/comic-actions.php:25
+#: example-themes/stripshow_sandbox/search.php:19
+#: example-themes/stripshow_sandbox/tag.php:16
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:28
+#: example-themes/stripshow_sandbox/author.php:22
+#: example-themes/stripshow_sandbox/category.php:19
+#: example-themes/stripshow_sandbox/comic-rant.php:17
+#: example-themes/stripshow_sandbox/index.php:15
+#: example-themes/stripshow_sandbox/search.php:20
+#: example-themes/stripshow_sandbox/tag.php:17
+#, php-format
+msgid "%1$s &#8211; %2$s"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:35
+#: example-themes/stripshow_sandbox/author.php:29
+#: example-themes/stripshow_sandbox/category.php:26
+#: example-themes/stripshow_sandbox/comic-rant.php:19
+#: example-themes/stripshow_sandbox/index.php:17
+#: example-themes/stripshow_sandbox/search.php:22
+#: example-themes/stripshow_sandbox/tag.php:24
+msgid "Read More <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:40
+#: example-themes/stripshow_sandbox/category.php:31
+#: example-themes/stripshow_sandbox/library/extensions/post-actions.php:40
+#: example-themes/stripshow_sandbox/search.php:28
+#: example-themes/stripshow_sandbox/tag.php:29
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:40
+#: example-themes/stripshow_sandbox/attachment.php:20
+#: example-themes/stripshow_sandbox/category.php:31
+#: example-themes/stripshow_sandbox/image.php:21
+#: example-themes/stripshow_sandbox/library/extensions/post-actions.php:12
+#: example-themes/stripshow_sandbox/library/extensions/post-actions.php:40
+#: example-themes/stripshow_sandbox/search.php:28
+#: example-themes/stripshow_sandbox/tag.php:29
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:42
+#: example-themes/stripshow_sandbox/author.php:34
+#: example-themes/stripshow_sandbox/library/extensions/post-actions.php:42
+#: example-themes/stripshow_sandbox/search.php:30
+#: example-themes/stripshow_sandbox/tag.php:31
+#, php-format
+msgid "Posted in %s"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:44
+#: example-themes/stripshow_sandbox/author.php:36
+#: example-themes/stripshow_sandbox/category.php:37
+#: example-themes/stripshow_sandbox/library/extensions/post-actions.php:44
+#: example-themes/stripshow_sandbox/search.php:32
+msgid "<span class=\"tag-links\">Tagged "
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:45
+#: example-themes/stripshow_sandbox/archives.php:32
+#: example-themes/stripshow_sandbox/attachment.php:38
+#: example-themes/stripshow_sandbox/author.php:37
+#: example-themes/stripshow_sandbox/category.php:38
+#: example-themes/stripshow_sandbox/comic-archive.php:24
+#: example-themes/stripshow_sandbox/functions.php:584
+#: example-themes/stripshow_sandbox/functions.php:611
+#: example-themes/stripshow_sandbox/image.php:39
+#: example-themes/stripshow_sandbox/library/extensions/post-actions.php:31
+#: example-themes/stripshow_sandbox/library/extensions/post-actions.php:45
+#: example-themes/stripshow_sandbox/links.php:22
+#: example-themes/stripshow_sandbox/page.php:16
+#: example-themes/stripshow_sandbox/search.php:33
+#: example-themes/stripshow_sandbox/tag.php:37 stripshow-admin.php:138
+#: stripshow-admin.php:434 stripshow-widgets.php:92
+msgid "Edit"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:46
+#: example-themes/stripshow_sandbox/author.php:38
+#: example-themes/stripshow_sandbox/category.php:39
+#: example-themes/stripshow_sandbox/library/extensions/post-actions.php:46
+#: example-themes/stripshow_sandbox/search.php:34
+#: example-themes/stripshow_sandbox/tag.php:38
+msgid "Comments (0)"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:46
+#: example-themes/stripshow_sandbox/author.php:38
+#: example-themes/stripshow_sandbox/category.php:39
+#: example-themes/stripshow_sandbox/library/extensions/post-actions.php:46
+#: example-themes/stripshow_sandbox/search.php:34
+#: example-themes/stripshow_sandbox/tag.php:38
+msgid "Comments (1)"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archive.php:46
+#: example-themes/stripshow_sandbox/author.php:38
+#: example-themes/stripshow_sandbox/category.php:39
+#: example-themes/stripshow_sandbox/library/extensions/post-actions.php:46
+#: example-themes/stripshow_sandbox/search.php:34
+#: example-themes/stripshow_sandbox/tag.php:38
+msgid "Comments (%)"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archives.php:20
+msgid "Archives by Category"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/archives.php:26
+msgid "Archives by Month"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/attachment.php:8
+#: example-themes/stripshow_sandbox/image.php:8
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/attachment.php:19
+#: example-themes/stripshow_sandbox/image.php:20
+#, php-format
+msgid ""
+"Posted by %1$s on <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s at %5"
+"$s</abbr>. Bookmark the <a href=\"%6$s\" title=\"Permalink to %7$s\" rel="
+"\"bookmark\">permalink</a>. Follow any comments here with the <a href=\"%8$s"
+"\" title=\"Comments RSS to %7$s\" rel=\"alternate\" type=\"application/rss"
+"+xml\">RSS feed for this post</a>."
+msgstr ""
+
+#: example-themes/stripshow_sandbox/attachment.php:30
+#: example-themes/stripshow_sandbox/image.php:31
+#: example-themes/stripshow_sandbox/library/extensions/post-actions.php:23
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: example-themes/stripshow_sandbox/attachment.php:32
+#: example-themes/stripshow_sandbox/image.php:33
+#: example-themes/stripshow_sandbox/library/extensions/post-actions.php:25
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+
+#: example-themes/stripshow_sandbox/attachment.php:34
+#: example-themes/stripshow_sandbox/image.php:35
+#: example-themes/stripshow_sandbox/library/extensions/post-actions.php:27
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: example-themes/stripshow_sandbox/attachment.php:36
+#: example-themes/stripshow_sandbox/image.php:37
+#: example-themes/stripshow_sandbox/library/extensions/post-actions.php:29
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: example-themes/stripshow_sandbox/author.php:8
+#, php-format
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/category.php:6
+#: example-themes/stripshow_sandbox/library/extensions/actions.php:115
+msgid "Category Archives:"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/category.php:34
+#, php-format
+msgid "Also posted in %s"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comic-archive.php:22
+#: example-themes/stripshow_sandbox/comic-rant.php:21
+#: example-themes/stripshow_sandbox/index.php:19
+#: example-themes/stripshow_sandbox/page.php:14
+#: example-themes/stripshow_sandbox/single.php:23
+msgid "Pages:"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:8
+msgid "This post is protected. Enter the password to view any comments."
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:23
+#, php-format
+msgid "<span>%d</span> Comments"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:23
+msgid "<span>One</span> Comment"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:39
+#, php-format
+msgid "<span>%d</span> Trackbacks"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:39
+msgid "<span>One</span> Trackback"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:52
+msgid "Post a Comment"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:52
+#, php-format
+msgid "Post a Reply to %s"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:55
+#, php-format
+msgid ""
+"You must be <a href=\"%s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:63
+#, php-format
+msgid ""
+"<span class=\"loggedin\">Logged in as <a href=\"%1$s\" title=\"Logged in as %"
+"2$s\">%2$s</a>.</span> <span class=\"logout\"><a href=\"%3$s\" title=\"Log "
+"out of this account\">Log out?</a></span>"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:70
+msgid "Your email is <em>never</em> shared."
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:70
+msgid "Required fields are marked <span class=\"required\">*</span>"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:72 stripshow-admin.php:119
+msgid "Name"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:72
+#: example-themes/stripshow_sandbox/comments.php:75
+msgid "<span class=\"required\">*</span>"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:75
+msgid "Email"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:78
+msgid "Website"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:83
+msgid "Comment"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/comments.php:86
+msgid "Post Comment"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/footer.php:5
+msgid ""
+"Powered by <a href=\"http://wordpress.org/\" title=\"WordPress\" rel="
+"\"generator\">WordPress</a> with <a href=\"http://stripshow.monkeylaw.org\" "
+"title=\"stripShow\" rel=\"designer\">stripShow</a>"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:388
+#: example-themes/stripshow_sandbox/functions.php:533
+#: example-themes/stripshow_sandbox/functions.php:535
+#: example-themes/stripshow_sandbox/sidebar.php:42
+msgid "Search"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:417
+#: example-themes/stripshow_sandbox/functions.php:470 stripshow-admin.php:235
+#: stripshow-widgets.php:112 stripshow-widgets.php:194
+#: stripshow-widgets.php:228 stripshow-widgets.php:287
+msgid "Title:"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:418
+msgid "Button Text:"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:427
+#: example-themes/stripshow_sandbox/functions.php:542
+#: example-themes/stripshow_sandbox/functions.php:544
+#: example-themes/stripshow_sandbox/sidebar.php:61
+msgid "Meta"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:446
+#: example-themes/stripshow_sandbox/functions.php:551
+#: example-themes/stripshow_sandbox/functions.php:552
+msgid "RSS Links"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:451
+msgid "Posts RSS feed"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:451
+#: example-themes/stripshow_sandbox/sidebar.php:55
+msgid "All posts"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:452
+msgid "Comments RSS feed"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:452
+#: example-themes/stripshow_sandbox/sidebar.php:56
+msgid "All comments"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:531
+msgid "A search form for your blog (Sandbox)"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:540
+msgid "Log in/out and administration links (Sandbox)"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:549
+msgid "RSS links for both posts and comments (Sandbox)"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:580
+#, php-format
+msgid ""
+"Posted %1$s at %2$s <span class=\"meta-sep\">|</span> <a href=\"%3$s\" title="
+"\"Permalink to this comment\">Permalink</a>"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:585
+msgid ""
+"\t\t\t\t\t<span class='unapproved'>Your comment is awaiting moderation.</"
+"span>\n"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:592
+msgid "Reply"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:593
+msgid "Log in to reply."
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:607
+#, php-format
+msgid "By %1$s on %2$s at %3$s"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/functions.php:612
+msgid ""
+"\\t\\t\\t\\t\\t<span class=\"unapproved\">Your trackback is awaiting "
+"moderation.</span>\\n"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/header.php:20
+#: example-themes/stripshow_sandbox/sidebar.php:55
+#, php-format
+msgid "%s latest posts"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/header.php:21
+#: example-themes/stripshow_sandbox/sidebar.php:56
+#, php-format
+msgid "%s latest comments"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:19
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:19
+msgid "Columns"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:20
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:20
+msgid "Column layout to use"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:25
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:25
+#: stripshow-widgets.php:50
+msgid "None"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:26
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:26
+msgid "One column"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:27
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:27
+msgid "Two columns, left sidebar"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:28
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:28
+msgid "Two columns, right sidebar"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:29
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:29
+msgid "Three columns, left sidebars"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:30
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:30
+msgid "Three columns, right sidebars"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:31
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:31
+msgid "Three columns, sidebars on both sides"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:34
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:34
+msgid "Suppress Index Rant"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:35
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:35
+msgid "Do not show a comic rant on the index page (above the blog by default)"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:40
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:40
+msgid "Suppress Blog Header"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:41
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:41
+msgid "Do not show a header for the blog section on the index page"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:46
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:46
+msgid "Suppress Archive Comics"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:47
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:47
+msgid "Do not show thumbnails of comics on archive pages"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:52
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:52
+msgid "Blog Title"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:53
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:53
+msgid "Text to put in the Blog header, to distinguish blog posts from comics"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:102
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:102
+msgid "settings saved."
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:103
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:103
+msgid "settings reset."
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:104
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:104
+msgid "widgets reset."
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:220
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:221
+msgid "Save changes"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:226
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:227
+msgid "Reset"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/admin/theme-options.php:232
+#: example-themes/stripshow_sandbox/library/extensions/theme-options.php:233
+msgid "Reset Widgets"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/extensions/actions.php:85
+msgid "Blog"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/extensions/actions.php:111
+#: example-themes/stripshow_sandbox/search.php:9
+msgid "Search Results for:"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/extensions/actions.php:119
+#: example-themes/stripshow_sandbox/tag.php:6
+msgid "Tag Archives:"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/extensions/post-actions.php:11
+#, php-format
+msgid ""
+"This entry was written by %1$s, posted on <abbr class=\"published\" title=\"%"
+"2$sT%3$s\">%4$s at %5$s</abbr>, filed under %6$s%7$s. Bookmark the <a href="
+"\"%8$s\" title=\"Permalink to %9$s\" rel=\"bookmark\">permalink</a>. Follow "
+"any comments here with the <a href=\"%10$s\" title=\"Comments RSS to %9$s\" "
+"rel=\"alternate\" type=\"application/rss+xml\">RSS feed for this post</a>."
+msgstr ""
+
+#: example-themes/stripshow_sandbox/library/extensions/post-actions.php:18
+msgid " and tagged "
+msgstr ""
+
+#: example-themes/stripshow_sandbox/search.php:12
+#: example-themes/stripshow_sandbox/search.php:43
+msgid "<span class=\"meta-nav\">&laquo;</span> Older results"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/search.php:13
+#: example-themes/stripshow_sandbox/search.php:44
+msgid "Newer results <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/search.php:50
+msgid "Nothing Found"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/search.php:52
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: example-themes/stripshow_sandbox/sidebar.php:8
+msgid "Pages"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/sidebar.php:15
+msgid "Categories"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/sidebar.php:23
+msgid "Archives"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/sidebar.php:53
+msgid "RSS Feeds"
+msgstr ""
+
+#: example-themes/stripshow_sandbox/tag.php:34
+#, php-format
+msgid "Also tagged %s"
+msgstr ""
+
+#: stripshow-admin.php:24
+msgid "stripShow Options"
+msgstr ""
+
+#: stripshow-admin.php:32
+msgid "Comics folder"
+msgstr ""
+
+#: stripshow-admin.php:36
+msgid "Date format"
+msgstr ""
+
+#: stripshow-admin.php:37
+msgid "(in <a href=\"http://us3.php.net/date\">PHP date format</a>)"
+msgstr ""
+
+#: stripshow-admin.php:42
+msgid "Comics category"
+msgstr ""
+
+#: stripshow-admin.php:48
+msgid "Non-comic category"
+msgstr ""
+
+#: stripshow-admin.php:51
+msgid "(only applies in Multiple-category mode)"
+msgstr ""
+
+#: stripshow-admin.php:55
+msgid "Category mode"
+msgstr ""
+
+#: stripshow-admin.php:58
+msgid ""
+"Single-Category -- One category for comics, all others for blogs (default)"
+msgstr ""
+
+#: stripshow-admin.php:61
+msgid "Multiple-Category -- One category for blogs, all others for comics"
+msgstr ""
+
+#: stripshow-admin.php:65
+msgid "Index page goes to"
+msgstr ""
+
+#: stripshow-admin.php:68
+msgid "Last Comic (\"Normal\" mode)"
+msgstr ""
+
+#: stripshow-admin.php:70
+msgid "First Comic (\"Graphic Novel\" mode)"
+msgstr ""
+
+#: stripshow-admin.php:72
+msgid "Random Comic (\"Insane\" mode)"
+msgstr ""
+
+#: stripshow-admin.php:76
+msgid "Thumbnails"
+msgstr ""
+
+#: stripshow-admin.php:78
+msgid "Fixed percentage"
+msgstr ""
+
+#: stripshow-admin.php:80
+msgid "Maximum width &amp; height"
+msgstr ""
+
+#: stripshow-admin.php:81
+msgid "Width"
+msgstr ""
+
+#: stripshow-admin.php:82
+msgid "Height"
+msgstr ""
+
+#: stripshow-admin.php:86
+msgid "Options"
+msgstr ""
+
+#: stripshow-admin.php:89
+msgid "Walk back from date if no comic file exists"
+msgstr ""
+
+#: stripshow-admin.php:91
+msgid "Show comics in RSS feeds"
+msgstr ""
+
+#: stripshow-admin.php:94
+msgid "Hide path to comic files"
+msgstr ""
+
+#: stripshow-admin.php:120
+msgid "Start"
+msgstr ""
+
+#: stripshow-admin.php:121
+msgid "End"
+msgstr ""
+
+#: stripshow-admin.php:139
+msgid "Delete"
+msgstr ""
+
+#: stripshow-admin.php:168
+msgid "Please fill out the whole form."
+msgstr ""
+
+#: stripshow-admin.php:172
+msgid "Start date is not a valid date."
+msgstr ""
+
+#: stripshow-admin.php:182
+msgid "Storyline added."
+msgstr ""
+
+#: stripshow-admin.php:193
+msgid "Storyline updated."
+msgstr ""
+
+#: stripshow-admin.php:225
+msgid "Edit Storyline"
+msgstr ""
+
+#: stripshow-admin.php:227
+msgid "Add Storyline"
+msgstr ""
+
+#: stripshow-admin.php:239
+msgid "Start Date:"
+msgstr ""
+
+#: stripshow-admin.php:243
+msgid "Parent:"
+msgstr ""
+
+#: stripshow-admin.php:246
+msgid "none"
+msgstr ""
+
+#: stripshow-admin.php:263
+msgid "Update"
+msgstr ""
+
+#: stripshow-admin.php:266
+msgid "Add"
+msgstr ""
+
+#: stripshow-admin.php:272 stripshow-widgets.php:22 stripshow-widgets.php:23
+#: stripshow.php:70
+msgid "Storylines"
+msgstr ""
+
+#: stripshow-admin.php:322
+msgid ""
+"Your comics directory is not writable by the web server. You will not be "
+"able to upload any comics."
+msgstr ""
+
+#: stripshow-admin.php:333 stripshow-admin.php:390 stripshow-admin.php:416
+msgid "Publish"
+msgstr ""
+
+#: stripshow-admin.php:334 stripshow-admin.php:416
+msgid "Submit for Review"
+msgstr ""
+
+#: stripshow-admin.php:374
+#, php-format
+msgid ""
+"Are you sure? This will create posts for any matching files found in %s."
+msgstr ""
+
+#: stripshow-admin.php:384 stripshow.php:72
+msgid "Add Comics"
+msgstr ""
+
+#: stripshow-admin.php:389 stripshow-admin.php:426 stripshow-admin.php:441
+msgid "Click to toggle"
+msgstr ""
+
+#: stripshow-admin.php:396
+msgid "Single Comic"
+msgstr ""
+
+#: stripshow-admin.php:400
+msgid "Bulk Upload"
+msgstr ""
+
+#: stripshow-admin.php:405
+msgid "Bulk Import"
+msgstr ""
+
+#: stripshow-admin.php:427
+msgid "Comic Date"
+msgstr ""
+
+#: stripshow-admin.php:442 stripshow-admin.php:444
+msgid "Tags"
+msgstr ""
+
+#: stripshow-admin.php:455
+msgid "Comic for"
+msgstr ""
+
+#: stripshow-admin.php:468
+#, php-format
+msgid "This is the comic for %s."
+msgstr ""
+
+#: stripshow-admin.php:474
+msgid "Comic Options"
+msgstr ""
+
+#: stripshow-admin.php:478
+msgid "Orientation"
+msgstr ""
+
+#: stripshow-admin.php:481
+msgid "Horizontal"
+msgstr ""
+
+#: stripshow-admin.php:482
+msgid "Vertical"
+msgstr ""
+
+#: stripshow-admin.php:483
+msgid "Unspecified"
+msgstr ""
+
+#: stripshow-admin.php:496
+msgid "Comic File"
+msgstr ""
+
+#: stripshow-admin.php:500
+msgid "Overwrite existing files"
+msgstr ""
+
+#: stripshow-admin.php:531
+msgid "Add another file"
+msgstr ""
+
+#: stripshow-admin.php:680
+msgid "The following comics already had posts and were not entered:<ul>"
+msgstr ""
+
+#: stripshow-admin.php:687
+msgid "Entered posts for the following comics:<ul>"
+msgstr ""
+
+#: stripshow-admin.php:703
+msgid ""
+"You have not yet defined the category that stripShow will use for comics. "
+"Please set up a category and then select that category in stripShow Options."
+msgstr ""
+
+#: stripshow-admin.php:720
+msgid ""
+"Your comic was published successfully. The following files already existed "
+"and were not changed: <ul>"
+msgstr ""
+
+#: stripshow-admin.php:739
+msgid "Your post was entered successfully."
+msgstr ""
+
+#: stripshow-admin.php:762
+msgid "Comic Preview"
+msgstr ""
+
+#: stripshow-template-tags.php:196
+msgid "Transcript"
+msgstr ""
+
+#: stripshow-template-tags.php:555
+msgid "Calendar"
+msgstr ""
+
+#: stripshow-template-tags.php:556
+#, php-format
+msgid "%1$s %2$s|Used as a calendar caption"
+msgstr ""
+
+#: stripshow-template-tags.php:580 stripshow-template-tags.php:590
+#, php-format
+msgid "View posts for %1$s %2$s"
+msgstr ""
+
+#: stripshow-widgets.php:16 stripshow-widgets.php:17
+msgid "Comic Rant"
+msgstr ""
+
+#: stripshow-widgets.php:18 stripshow-widgets.php:19
+msgid "Comic Calendar"
+msgstr ""
+
+#: stripshow-widgets.php:20 stripshow-widgets.php:21
+msgid "Comic Navbar"
+msgstr ""
+
+#: stripshow-widgets.php:24 stripshow-widgets.php:25 stripshow-widgets.php:123
+msgid "Comic Bookmark"
+msgstr ""
+
+#: stripshow-widgets.php:49
+msgid "Title"
+msgstr ""
+
+#: stripshow-widgets.php:52
+msgid "Post title"
+msgstr ""
+
+#: stripshow-widgets.php:54
+msgid "Custom title"
+msgstr ""
+
+#: stripshow-widgets.php:55
+msgid "Include transcript"
+msgstr ""
+
+#: stripshow-widgets.php:138
+msgid "Bookmark this comic"
+msgstr ""
+
+#: stripshow-widgets.php:139
+msgid "Go to bookmark"
+msgstr ""
+
+#: stripshow-widgets.php:140
+msgid "Clear bookmark"
+msgstr ""
+
+#: stripshow-widgets.php:169
+#, php-format
+msgid "Part %1$s of %2$s"
+msgstr ""
+
+#: stripshow-widgets.php:195
+msgid "Show title"
+msgstr ""
+
+#: stripshow-widgets.php:196
+msgid "Show part number"
+msgstr ""
+
+#: stripshow-widgets.php:288
+msgid "First"
+msgstr ""
+
+#: stripshow-widgets.php:290
+msgid "Previous"
+msgstr ""
+
+#: stripshow-widgets.php:292
+msgid "Next"
+msgstr ""
+
+#: stripshow-widgets.php:294
+msgid "Last"
+msgstr ""
+
+#: stripshow-widgets.php:296
+msgid "Random"
+msgstr ""
+
+#: stripshow.php:215
+msgid "Not safe for work"
+msgstr ""
+
+#. Plugin Name of an extension
+msgid "stripShow"
+msgstr ""
+
+#. Plugin URI of an extension
+msgid "http://stripshow.monkeylaw.org"
+msgstr ""
+
+#. Description of an extension
+msgid "A plugin allowing WordPress to be easily used as a webcomic archive"
+msgstr ""
+
+#. Author of an extension
+msgid "Brad Hawkins"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.monkeylaw.org"
+msgstr ""

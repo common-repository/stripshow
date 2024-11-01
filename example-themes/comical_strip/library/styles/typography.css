@@ -1,0 +1,209 @@
+body { 
+	line-height: 1.2em;
+	font-family: "Lucida Grande",Helvetica,sans-serif;
+	font-size: 11pt;
+	}
+input, textarea {
+	font-family: Verdana,Helvetica,sans-serif;
+	}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+	margin: .8em 0;
+	line-height: 1.1em;
+	}
+h1 { font-size: 2em; }
+h2 { font-size: 1.4em; }
+	#comic-header h2 {
+		font-size: 1.2em;
+		}
+
+h3 { font-size: 1.2em; }
+	div.sidebar h3 {
+		font-size: 1.2em;
+		}
+	li.widget h3 {
+		text-align: center;
+		margin-bottom: .5em;
+		}
+	div.sidebar h3 {
+	font-size: 1.2em;
+	}
+	
+	
+h4 { font-size: 1.0em; }
+h5 { font-size: .8em; }
+h6 { font-size: .67em; }
+
+h2.entry-title, h3.entry-title {
+	margin-bottom: 0;
+	}
+h2.entry-title, div#comic-header h2 {
+	margin-top: 0;
+	}
+body.page h2.entry-title {
+	margin-bottom: 1em;
+	}
+
+div#header,div#footer {
+	text-align:center;
+	}
+
+#branding {
+	text-align: left;
+	}
+
+
+a {
+	text-decoration: none;
+	}
+	div#secondary li.widget a, div#primary li.widget a, div#primary.no-widgets a,div#secondary.no-widgets a {
+		font-weight: bold;
+		}
+
+a:hover {
+	text-decoration: underline;
+	}
+	div.page-link a:hover .page-link-page{
+		text-decoration: none;
+		}
+	
+
+p {
+	margin: 1em 0;
+	}
+	p.wp-caption-text{
+		font-style: italic;
+		}
+
+small,
+blockquote,
+.transcript, 
+span.loggedin,
+form#commentform .form-label,
+div.comic-rant,
+div#secondary li.widget,
+td.archive_date,
+.toggler_off, 
+.toggler_on,
+span.logout { 
+	font-size: .8em;
+	}
+
+div.entry-meta, 
+span.unapproved,
+span.unapproved,
+div.comments div.comment-meta,
+span.unapproved,
+a.comment-reply-link {
+	font-size: .75em;
+	}
+
+div.entry-date,
+div#nav-above, 
+div#nav-below {
+	font-size: .7em;
+	}
+
+#access {
+	font-size: .8em;
+}
+
+/* Lists */
+div.sidebar li {
+	list-style: none;
+	margin:0 0 20px 0;
+	}
+div#primary ul.xoxo li, div#secondary ul.xoxo li {
+	list-style: none;
+	}
+div.sidebar ul ul {
+	margin:0 0 0 1em;
+	}
+
+	
+div.sidebar ul ul li {
+	margin:0;
+	}
+	
+div.sidebar ul ul ul {
+	margin:0 0 0 0.5em;
+	}
+	
+div.sidebar ul ul {
+	margin: 0 0 0 1em;
+	}
+	
+div.sidebar ul ul ul {
+	margin: 0 0 0 0.5em;
+	}
+	
+div.sidebar ul ul ul li {
+	list-style: circle;
+	}
+div.entry-content ul {
+	list-style: disc;
+	margin-left: 2em;
+	}
+div.entry-content ol li {
+	list-style: decimal;
+	margin-left: 2em;
+	}
+div.comments li.comment {
+	list-style: none;
+	}
+
+div.comments ol li {
+	margin:0 0 3.5em;
+	}
+div.sidebar li.widget ul {
+	margin-left: 1em;
+	text-indent: -1em;
+	}
+div.sidebar li.widget ul ul{
+	margin-left: 1em;
+	}
+
+
+/* Screen elements */
+div#siteinfo {
+	font-size: .9em;
+	}
+
+
+
+.transcript_character {
+	text-align: right;
+	font-weight: bold;
+	}
+.toggler_off, .toggler_on {
+	line-height: 18px;
+	}
+
+/* Text widgets */
+div#primary li.widget_text, div#primary li.widget_text {
+	font-size: .8em;
+	line-height: 1.1em;
+	}
+	div#primary li.widget_text li {
+		margin: 0 0 0 1.5em;
+		text-indent: 0;
+		}
+	div#primary li.widget_text ul li {
+			list-style: disc;
+			}
+	div#primary li.widget_text ol li{
+			list-style: decimal;
+			}
+div.sidebar li.widget ul.stripshow-comic-navbar {
+	margin: 0 auto;
+	}
+table#stripshow-comic-calendar {
+	line-height: 1.1em;
+	font-size: .8em;
+	}
+	table#stripshow-comic-calendar caption {
+		line-height: 2em;
+		font-weight: bold;
+		}

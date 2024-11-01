@@ -1,0 +1,139 @@
+/**
+* AutoComic CSS file
+*
+* This file contains the default CSS styling for stripShow's AutoComic feature.
+* This styling was designed to be relatively generic, so as to be compatible with
+* the greatest variety of themes.
+*
+* You can disable this default CSS by deselecting the "Add Default CSS"
+* checkbox on the AutoComic settings page.
+*
+*/
+
+#autocomic.comic-container {
+    text-align: center;
+    background-color: #ffffff;
+    clear:both;
+    padding: 10px;
+    }
+#autocomic .comic-nav {
+	margin-top: 10px;
+	}
+#autocomic.nav-right .comic-nav {
+	width: 50px;
+	}
+
+/* Widgets */
+#autocomic ul.autocomic-sidebar {
+    overflow: hidden;
+    clear:both;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    list-style: none;
+    display: table;
+    }
+#autocomic ul.autocomic-sidebar li.widget {
+    padding: 0 10px;
+    display: table-cell;
+    }
+#autocomic li.widget h3 {
+    display: none;
+    }
+
+/*  Navigation bar */
+#autocomic ul.stripshow-comic-navbar{
+	height: 32px;
+	padding: 0;
+	margin: 0 auto;
+	display: table;
+	*display:block; /* IE7 doesn't know about display:table-cell */
+	}
+#autocomic ul.stripshow-comic-navbar li {
+	display: block;
+	height: 32px;
+	width: 36px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	float: left;
+	background-repeat: no-repeat;
+	background-image: url(autocomic-navbar.png);
+	}
+#autocomic ul.stripshow-comic-navbar li a:link, #autocomic ul.stripshow-comic-navbar li a:visited {
+	display: table-cell;
+	*display:block; /* IE7 doesn't know about display:table-cell */
+	width: 36px;
+	height: 32px;
+	text-indent: -10000px; 
+	background-color: transparent;
+	}
+#autocomic ul.stripshow-comic-navbar li a {
+	background-image: url(autocomic-navbar.png); 
+	
+	outline: none;
+    }
+
+/* Regular arrows */
+#autocomic li.first-comic a { background-position: 0 -100px;}
+#autocomic li.previous-comic a { background-position: -100px -100px;}
+#autocomic li.next-comic a { background-position: -200px -100px;}
+#autocomic li.last-comic a { background-position: -300px -100px;}
+#autocomic li.previous-story a { background-position: -400px -100px;}
+#autocomic li.next-story a { background-position: -500px -100px;}
+#autocomic li.random-comic a { background-position: -600px -100px;}
+
+/* Disabled arrows */
+#autocomic li.first-comic { background-position: 0 0px;}
+#autocomic li.previous-comic { background-position: -100px 0px;}
+#autocomic li.next-comic { background-position: -200px 0px;}
+#autocomic li.last-comic { background-position: -300px 0px;}
+#autocomic li.previous-story { background-position: -400px 0px;}
+#autocomic li.next-story { background-position: -500px 0px;}
+#autocomic li.random-comic { background-position: -600px 0px;}
+
+/* Hover arrows */
+#autocomic .first-comic a:hover { background-position: 0 -200px;}
+#autocomic .previous-comic a:hover { background-position: -100px -200px;}
+#autocomic .next-comic a:hover { background-position: -200px -200px;}
+#autocomic .last-comic a:hover { background-position: -300px -200px;}
+#autocomic .previous-story a:hover { background-position: -400px -200px;}
+#autocomic .next-story a:hover { background-position: -500px -200px;}
+#autocomic .random-comic a:hover { background-position: -600px -200px;}
+
+/* Active arrows */
+#autocomic .first-comic a:active { background-position: 0 -300px;}
+#autocomic .previous-comic a:active { background-position: -100px -300px;}
+#autocomic .next-comic a:active { background-position: -200px -300px;}
+#autocomic .last-comic a:active { background-position: -300px -300px;}
+#autocomic .previous-story a:active { background-position: -400px -300px;}
+#autocomic .next-story a:active { background-position: -500px -300px;}
+#autocomic .random-comic a:active { background-position: -600px -300px;}
+
+
+/**
+* Alternate navigation configurations
+*/
+#autocomic.nav-right {
+	overflow: hidden;
+	width: 100%;
+	}
+#autocomic.nav-right .comic {
+	float: left;
+	margin: 0;
+	}
+#autocomic.nav-right .comic-nav {
+	float: right;
+	}
+#autocomic.nav-right ul.stripshow-comic-navbar {
+	width: 36px;
+	height: 200px;
+	}
+#autocomic.nav-right ul.stripshow-comic-navbar li {
+	margin: 10px 0;
+	}
+
+#autocomic ul.autocomic-sidebar li.widget_widget_comic {
+	display:block;
+	float: none;
+	clear: both;
+	}
